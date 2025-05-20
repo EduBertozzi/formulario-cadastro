@@ -6,7 +6,7 @@ Este projeto é um formulário de cadastro básico, desenvolvido com HTML e CSS,
 
 Veja como fica o formulário:
 
-![Imagem]https://i.imgur.com/XXSl1EN.png
+![Imagem](https://i.imgur.com/XXSl1EN.png)
 
 ## 📝 Funcionalidades
 
