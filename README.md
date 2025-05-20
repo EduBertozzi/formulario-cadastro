@@ -6,9 +6,7 @@ Este projeto é um formulário de cadastro básico, desenvolvido com HTML e CSS,
 
 Veja como fica o formulário:
 
-![![capturagit](https://github.com/user-attachments/assets/15369f52-33b4-4a7a-9682-0263ba5f861f)
-](https://user-images.githubusercontent.com/0000000/000000000-00000000-0000-0000-0000-000000000000.png)
-
+!https://i.imgur.com/XXSl1EN.png
 ## 📝 Funcionalidades
 
 - Campos para nome de usuário, e-mail e senha;
