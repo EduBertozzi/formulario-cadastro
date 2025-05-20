@@ -1,0 +1,124 @@
+body {
+    background: #7c3aed; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Fira Mono', monospace;
+    font-size: 16px;
+    
+  }
+  
+  .container {
+    background: #fff;
+    padding: 1.3rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+  }
+  
+  .container h2 {
+    font-family: 'Fira Mono', monospace;
+    font-size: 2rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #7c3aed;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+    color: #333;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+    text-decoration: none;
+    text-decoration-color: #7c3aed;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    text-underline-position: under;
+    text-underline-style: solid;
+    text-underline-color: #7c3aed;
+  }
+  
+  label {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    display: block;
+    color: #333;
+    font-family: 'Fira Mono', monospace;
+    letter-spacing: 1px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+    width: 100%;
+    font-family: 'Fira Mono', monospace;
+
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 0.7rem 1rem;
+    border: 2px solid #7c3aed;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+    background: #fff;
+    color: #333;
+    font-family: 'Fira Mono', monospace;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  
+    
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #5b21b6;
+    
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.9rem 0;
+    background: #7c3aed;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    letter-spacing: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+    font-family: 'Fira Mono', monospace;
+  }
+  
+  button:hover {
+    background: #5b21b6;
+  }
+  
